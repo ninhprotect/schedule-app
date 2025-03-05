@@ -1,4 +1,15 @@
-"scripts": {
-  "build": "react-scripts build",
-  "start": "serve -s build"
+{
+  "name": "schedule-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "latest",
+    "serve": "latest"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "serve -s build"
+  }
 }
